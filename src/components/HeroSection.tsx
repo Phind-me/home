@@ -23,17 +23,16 @@ const CtaButton = ({ text, color, icon = <ArrowRight size={18} />, onClick }: Ct
 };
 
 const HeroSection = () => {
-  // In a real application, these would navigate to the respective subdomains
   const handleEmployerClick = () => {
-    window.location.href = 'https://employer.phind.me';
+    window.open('https://phindmeemployer.cairns.co.za/', '_blank', 'noopener,noreferrer');
   };
 
   const handleRecruiterClick = () => {
-    window.location.href = 'https://recruiter.phind.me';
+    window.open('https://phindmerecruiter.cairns.co.za/', '_blank', 'noopener,noreferrer');
   };
 
   const handleCandidateClick = () => {
-    window.location.href = 'https://candidate.phind.me';
+    window.open('https://phindmeajob.cairns.co.za/', '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -68,10 +67,10 @@ const HeroSection = () => {
           </div>
 
           <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition-all duration-300">
-            <h3 className="text-xl font-bold mb-3 text-amber-500">For Candidates</h3>
+            <h3 className="text-xl font-bold mb-3 text-amber-500">For Job Seekers</h3>
             <p className="text-gray-600 mb-6">Find recruiters who will champion your career and track all your applications.</p>
             <CtaButton 
-              text="I'm a Candidate" 
+              text="I'm a Job Seeker" 
               color="bg-amber-500 hover:bg-amber-600" 
               onClick={handleCandidateClick}
             />

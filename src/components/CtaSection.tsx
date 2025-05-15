@@ -12,7 +12,9 @@ const CtaSection = () => {
         
         <div className="flex flex-col md:flex-row gap-6 justify-center">
           <a 
-            href="https://employer.phind.me" 
+            href="https://phindmeemployer.cairns.co.za/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="group bg-white text-indigo-600 px-8 py-4 rounded-lg font-medium text-lg flex items-center justify-center gap-2 hover:bg-opacity-90 transition-all"
           >
             I'm an Employer
@@ -20,7 +22,9 @@ const CtaSection = () => {
           </a>
           
           <a 
-            href="https://recruiter.phind.me" 
+            href="https://phindmerecruiter.cairns.co.za/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="group bg-indigo-800 bg-opacity-30 hover:bg-opacity-40 text-white px-8 py-4 rounded-lg font-medium text-lg flex items-center justify-center gap-2 border border-white border-opacity-30 transition-all"
           >
             I'm a Recruiter
@@ -28,10 +32,12 @@ const CtaSection = () => {
           </a>
           
           <a 
-            href="https://candidate.phind.me" 
+            href="https://phindmeajob.cairns.co.za/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="group bg-indigo-800 bg-opacity-30 hover:bg-opacity-40 text-white px-8 py-4 rounded-lg font-medium text-lg flex items-center justify-center gap-2 border border-white border-opacity-30 transition-all"
           >
-            I'm a Candidate
+            I'm a Job Seeker
             <ArrowRight size={20} className="transition-transform group-hover:translate-x-1" />
           </a>
         </div>
